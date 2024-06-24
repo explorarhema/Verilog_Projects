@@ -148,7 +148,7 @@ always @(posedge i_clk_vco1 && startup_state == 6)
   end
 always @(posedge i_clk_vco2 && startup_state == 6)
   begin
-	 counter_vco2 <= counter_vco2 +1;  // count the clock cycles of VCO1
+	 counter_vco2 <= counter_vco2 +1;  // count the clock cycles of VCO2
   end
 
 
